@@ -28,7 +28,7 @@ func loadRecipient(filepath string, ch chan Recipient) error {
 			Name:  record[0],
 			Email: record[1],
 		}
-		//send -> consumer -> channels
+		//send to consumer through channels
 
 	}
 
